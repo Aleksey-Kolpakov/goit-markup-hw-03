@@ -10,20 +10,24 @@
   --focus-color: #2196f3;
   --title-color: #212121;
 }
+
 body {
   background-color: var(--background-color);
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
 ul {
   list-style: none;
 }
+
 h1,
 h2,
 h3 {
   color: var(--title-color);
 }
+
 .logo {
   list-style: none;
   color: var(--title-color);
@@ -32,15 +36,18 @@ h3 {
   font-size: 26px;
   line-height: 1.2;
 }
+
 .logo-focus {
   color: var(--focus-color);
 }
+
 a {
   text-decoration: none;
 }
+
 /* site nav */
-header {
-}
+header {}
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -48,25 +55,31 @@ header {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--focus-color);
 }
+
 .site-nav .link {
   color: var(--title-color);
 }
+
 .site-nav .link.active {
   color: var(--focus-color);
 }
-.site-nav > li:hover,
-.site-nav > li:focus {
+
+.site-nav>li:hover,
+.site-nav>li:focus {
   color: var(--focus-color);
 }
+
 /* Hero section */
 .hero {
   background-color: #2f303a;
   letter-spacing: 0.06em;
 }
+
 .hero-title {
   color: var(--background-color);
   font-weight: 900;
@@ -75,6 +88,7 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
+
 .hero-button {
   color: var(--background-color);
   background-color: var(--focus-color);
@@ -84,17 +98,20 @@ header {
   display: flex;
   text-align: center;
 }
+
 /* advantages */
 .advantage {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .advantage-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 /* Section */
 .section-title {
   color: var(--title-color);
@@ -103,27 +120,40 @@ header {
   line-height: 1.17;
   text-align: center;
 }
+
 .section-team {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+
 .section-team h3 {
   font-weight: 500;
 }
+
 /* footer */
 footer {
   background-color: #2f303a;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--background-color);
 }
+
 footer .logo {
   color: var(--background-color);
 }
+
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--background-color);
+  font-style: normal;
+}
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
 }
+
 /* portfolio styles */
 .portfolio-title {
   color: var(--title-color);
@@ -141,11 +171,13 @@ footer .logo {
   color: var(--background-color);
   background-color: var(--focus-color);
 }
+
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .portfolio-item p {
   font-size: 16px;
   line-height: 1.87;
