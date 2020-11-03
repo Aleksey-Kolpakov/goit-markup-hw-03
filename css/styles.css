@@ -41,12 +41,14 @@ h3 {
   color: var(--focus-color);
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 /* site nav */
-header {}
+header * {
+  text-decoration: none;
+}
 
 .site-nav {
   font-weight: 500;
@@ -138,6 +140,7 @@ footer {
 
 footer .logo {
   color: var(--background-color);
+  text-decoration: none;
 }
 
 .footer-adress {
@@ -145,6 +148,7 @@ footer .logo {
   line-height: 1.71;
   color: var(--background-color);
   font-style: normal;
+  text-decoration: none;
 }
 
 .footer-contacts {
@@ -152,6 +156,7 @@ footer .logo {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  text-decoration: none;
 }
 
 /* portfolio styles */
