@@ -9,7 +9,7 @@
   --main-text-color: #757575;
   --focus-color: #2196f3;
   --title-color: #212121;
-  --grey-bkg: #F5F4FA;
+  --grey-bkg: #f5f4fa;
 }
 
 .visually-hidden {
@@ -100,8 +100,8 @@ header * {
   color: var(--focus-color);
 }
 
-.site-nav>li:hover,
-.site-nav>li:focus {
+.site-nav > li:hover,
+.site-nav > li:focus {
   color: var(--focus-color);
 }
 
@@ -110,6 +110,9 @@ header * {
   background-color: #2f303a;
   letter-spacing: 0.06em;
   text-align: center;
+}
+.hero > .container {
+  max-width: 696px;
 }
 
 .hero-title {
@@ -154,7 +157,7 @@ header * {
   margin: 0px;
 }
 
-/* Section */
+/* Section-services */
 .section-services {
   padding-top: 0px;
 }
@@ -201,10 +204,8 @@ footer .logo {
   text-decoration: none;
   margin-bottom: 9px;
 }
-
-.contacts {
+.dark {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 0px;
 }
 
 /* portfolio styles */
@@ -217,21 +218,32 @@ footer .logo {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 6px 22px;
+  border-color: var(--grey-bkg);
 }
 
-.portfolio-filter .filter-button:hover,
-.portfolio-filter .filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--background-color);
   background-color: var(--focus-color);
+  border-color: var(--focus-color);
 }
 
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
-
-.portfolio-item p {
+.portfolio-item {
+  border: 1px solid #eeeeee;
+  padding-bottom: 20px;
+}
+.portfolio-item .text {
   font-size: 16px;
   line-height: 1.87;
 }
