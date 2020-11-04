@@ -155,6 +155,10 @@ header * {
 }
 
 /* Section */
+.section-services {
+  padding-top: 0px;
+}
+
 .section-title {
   color: var(--title-color);
   font-weight: 700;
