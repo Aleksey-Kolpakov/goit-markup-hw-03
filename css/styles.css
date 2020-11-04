@@ -46,8 +46,8 @@ body {
 
 ul {
   list-style: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
+  padding: 0px;
 }
 
 h1,
@@ -183,11 +183,14 @@ header * {
 /* footer */
 footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer .logo {
   color: var(--background-color);
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .footer-adress {
@@ -196,14 +199,12 @@ footer .logo {
   color: var(--background-color);
   font-style: normal;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
-.footer-contacts {
+.contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
-  text-decoration: none;
+  margin-bottom: 0px;
 }
 
 /* portfolio styles */
