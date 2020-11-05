@@ -157,7 +157,6 @@ header * {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  outline: 2px solid red;
 }
 .hero .container {
   max-width: 696px;
