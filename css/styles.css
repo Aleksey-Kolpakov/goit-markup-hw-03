@@ -166,7 +166,7 @@ header * {
   /* background-image: url(../images/hero/herobg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 }
 
 .hero .container {
